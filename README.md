@@ -25,6 +25,7 @@ generating signed requests while remaining generic.
 SYNOPSIS
 ========
 
+<pre>
  use AWS::Signature4;
  use HTTP::Request::Common;
  use LWP;
@@ -49,14 +50,17 @@ SYNOPSIS
 		     Version=>'2010-05-08']
                     );
  $signer->sign($request);                 # This signs the request
- my $response = $ua->requeset($request);  #  Fetch it
+ my $response = $ua->request($request);  #  Fetch it
+</pre>
 
 INSTALLATION
 ============
 
+<pre>
  perl Build.PL
  ./Build test
  sudo ./Build install
+</pre>
 
 DEVELOPMENT SITE
 ================

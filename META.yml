@@ -6,7 +6,7 @@ build_requires: {}
 configure_requires:
   Module::Build: '0.4205'
 dynamic_config: 1
-generated_by: 'Module::Build version 0.4205, CPAN::Meta::Converter version 2.120351'
+generated_by: 'Module::Build version 0.4005, CPAN::Meta::Converter version 2.142060'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -15,7 +15,7 @@ name: AWS-Signature4
 provides:
   AWS::Signature4:
     file: lib/AWS/Signature4.pm
-    version: '1.00'
+    version: '1.01'
 requires:
   Digest::SHA: '5.47'
   LWP: '5.835'
@@ -23,4 +23,4 @@ requires:
   URI::QueryParam: '0'
 resources:
   license: http://dev.perl.org/licenses/
-version: '1.00'
+version: '1.01'
